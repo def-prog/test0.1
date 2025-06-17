@@ -11,11 +11,60 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
+            "x": 0.856515373352855,
+            "y": 0.44927536231884063,
             "uniqueID": "b445615b-f855-4149-90d1-489a1ff50754",
             "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.17130307467057102,
+            "y": 0.39855072463768115,
+            "uniqueID": "d7d46239-e8c3-4ed3-a63d-a5760dc4dbbd",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "c65a0550-2612-46d9-b8fa-c272ec84d87c",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.17715959004392387,
+            "y": 0.41304347826086957,
+            "uniqueID": "9ff92e02-b505-435e-869e-38e8b7307109",
+            "ioValues": [],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "ROBOTO",
+            "selectedFontIndex": 0
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.16764275256222547,
+            "y": 0.4420289855072464,
+            "uniqueID": "2b5f07a2-8b6f-4484-8634-6b5668568d4b",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [],
